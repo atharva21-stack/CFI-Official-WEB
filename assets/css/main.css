@@ -66,7 +66,7 @@
 
 :root {
 	--body-color: #696969;
-	--primary-color: #e5a632;
+	--primary-color: #e3860c;
 	--secondary-color: #001d23;
 	--primary-soft-color: #edf9f3;
 	--white: #fff;
@@ -1606,7 +1606,7 @@ a:hover {
 	position: relative;
 	z-index: 1;
 	padding: 125px 0;
-	background-image: url(../img/page-title.jpg);
+	background-image: url(../img/hero/1hero-one-bg.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -1619,8 +1619,8 @@ a:hover {
 	width: 100%;
 	height: 100%;
 	z-index: -1;
-	background-color: var(--secondary-color);
-	opacity: 0.9;
+	background-color: #cc4f06 ;
+	opacity: 0.6;
 }
 
 .page-title-area .page-title {
