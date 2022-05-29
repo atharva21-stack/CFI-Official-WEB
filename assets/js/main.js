@@ -1,9 +1,5 @@
 /*-----------------------------------------------------------------------------------
-    Template Name: Funden - Crowdfunding & Charity HTML Template
-    Template URI: https://webtend.net/demp/html/funden
-    Author: WebTend
-    Author URI:  https://webtend.net/
-    Version: 1.0
+    
 
     Note: This is Main Js file
 -----------------------------------------------------------------------------------
