@@ -1488,7 +1488,7 @@ a:hover {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	margin-top: -420px;
+	margin-top: -460px;
 	position: relative;
 	z-index: 3;
 }
@@ -1522,6 +1522,7 @@ a:hover {
 	font-size: 85px;
 	line-height: 1.06;
 	margin-bottom: 40px;
+	margin-top: -25%;
 }
 
 .hero-area-two .hero-text p {
@@ -2274,7 +2275,7 @@ a:hover {
 
 /*======= Project Section =======*/
 .project-section.project-section-extra-gap {
-	padding-top: 130px;
+	padding-top: 100px;
 	padding-bottom: 210px;
 }
 
