@@ -579,8 +579,9 @@ a:hover {
 }
 
 .section-gap-extra-bottom {
-	padding-top: 115px;
+	padding-top: 50px;
 	padding-bottom: 200px;
+	border-radius: 10px;
 }
 
 .primary-bg {
@@ -1421,11 +1422,11 @@ a:hover {
 
 .hero-area-one .hero-shapes .dot-two {
 	position: absolute;
-	right: 12%;
-	top: 26%;
+	right: 13%;
+	top: 33%;
 	width: 25px;
 	height: 25px;
-	border: 5px solid #ff8a00;
+	border: 5px solid #ff0000;
 	background-color: transparent;
 	border-radius: 50%;
 	z-index: -1;
@@ -1616,7 +1617,8 @@ a:hover {
 .page-title-area {
 	position: relative;
 	z-index: 1;
-	padding: 125px 0;
+	padding: 85px 0;
+	height: 0px;
 	background-image: url(../img/hero/1hero-one-bg.jpg);
 	background-size: cover;
 	background-position: center;
@@ -1636,7 +1638,9 @@ a:hover {
 
 .page-title-area .page-title {
 	color: var(--white);
-	font-size: 65px;
+	font-size: 50px;
+	margin-top: -80px;
+	margin-bottom: 30px;
 }
 
 .page-title-area .page-breadcrumb {
@@ -1655,6 +1659,7 @@ a:hover {
 	font-weight: 500;
 	position: relative;
 	z-index: 1;
+	
 }
 
 .page-title-area .page-breadcrumb li,
@@ -1664,6 +1669,7 @@ a:hover {
 
 .page-title-area .page-breadcrumb li:not(:last-child) {
 	margin-right: 45px;
+	margin-bottom: 50%;
 }
 
 .page-title-area .page-breadcrumb li:not(:last-child)::before,
@@ -3162,7 +3168,7 @@ a:hover {
 
 .latest-blog-posts .post-content {
 	background-color: var(--white);
-	border: 1px solid #edefef;
+	border: 1px solid #f6ef96;
 	padding: 30px;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -4411,12 +4417,14 @@ a:hover {
 	object-fit: cover;
 	-o-object-position: center;
 	object-position: center;
+	
 }
 
 .blog-post-loop .post-item.thumbnail-as-bg .post-content {
 	background-color: transparent;
 	margin: 0;
 	padding: 45px 70px;
+	
 }
 
 .blog-post-loop .post-item.thumbnail-as-bg .post-content .title a,
@@ -4941,6 +4949,7 @@ a:hover {
 	-ms-flex: 0 0 160px;
 	flex: 0 0 160px;
 	margin-right: 30px;
+	margin-top: -20px;
 }
 
 .blog-post-details .post-author .author-img img {
@@ -5021,13 +5030,11 @@ a:hover {
 	opacity: 0;
 }
 
-.blog-post-details .post-nav .post-nav-item:hover .thumb::before {
-	visibility: visible;
-	opacity: 0.75;
-}
 
-.blog-post-details .post-nav .post-nav-item:hover .thumb i {
+
+.blog-post-details .post-nav .post-nav-item .thumb i {
 	top: 50%;
+	color: rgb(235, 95, 45);
 	visibility: visible;
 	opacity: 1;
 }
